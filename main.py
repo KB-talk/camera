@@ -125,5 +125,3 @@ for i in range(0, comparison_image.shape[0], 50):  # 每隔50像素画一条线
 cv2.imshow('Stereo Rectification Comparison', comparison_image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
-
